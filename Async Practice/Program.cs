@@ -16,6 +16,7 @@ namespace Async_Practice
             Thread.Sleep(15000);
         }
         public static void Myfunc()
+
         {
             Console.WriteLine("Calling Function LongWaited()");
             Task.Run( new Action(LongWait));
