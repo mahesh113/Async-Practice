@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Async_Practice
 {
-    // Task parallel library. Function will optimally use the core of the machines.  hello
+    // Task parallel library. Function will optimally use the core of the machines.
     class TPL
     {
         static void Main(string[] args)
